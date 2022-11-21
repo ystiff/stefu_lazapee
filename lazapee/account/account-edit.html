@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       <meta charset="utf-8">
+       <meta http-equiv="X-UA-Compatible" content="If-edge">
+       <meta name="viewport" content="width-device-width", initial-scale="1.0">
+       <title>Account Page | Edit Account</title>
+       
+        
+    </head>
+     
+    <body>
+     
+       <div class="Lazapee">
+         <nav>
+            <a href ="../products/index.html"><img src="../images/lazapee-logo.png" alt="" height="70" width="200"></a>
+          <ul>
+             <li><a href="../account/account.html">Account</a></li> 
+             <li><a href="../products/cart.html">Cart</a></li>
+             <br>
+
+             <li><a href="../categories/electronic.html ">Electronic Devices</a></li>
+             <li><a href="../categories/health-beauty.html">Health & Beauty</a></li>
+             <li><a href="../categories/babies-toys.html">Babies & Toys</a></li>
+             <li><a href="../categories/groceries-pets.html">Groceries & Pets</a></li>
+             <li><a href="../categories/home-living.html">Home & Living</a></li>
+             <li><a href="../categories/fashion.html">Fashion</a></li>
+
+            </ul>   
+            <hr>
+         </nav>
+          
+        <h1>Edit Account</h1>
+           
+                
+            <table border="1" >
+               <tr>
+                  <td  >Name</td>
+                  <td> <input type="text" value="Juan Dela Cruz"></td>
+               </tr>
+               <tr>
+                  <td>Billing Address</td>
+                  <td><input type="text" value="Zamora Street Cor. Libertad Extension, Pasay City"></td>
+               </tr>
+               <tr>
+                  <td>Shipping Address</td>
+                  <td><input type="text" value="UNIT 2505 Cityland 10 Tower 1 Ayala Avenue Salcedo Village 1200, Makati City"> </td>
+               </tr>
+
+               <tr>
+                  <td>Old Password</td>
+                  <td colspan="2"><input type="password" id="mypwd" name=""pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required> 
+                    <script>
+                     var myInput = document.getElementById("psw");
+                     var letter = document.getElementById("letter");
+                     var capital = document.getElementById("capital");
+                     var number = document.getElementById("number");
+                     var length = document.getElementById("length");
+                    
+                     </script> 
+                  </td>
+               </tr>
+
+               <tr>
+                  <td>New Password</td>
+                  <td colspan="2"><input type="password" autocomplete="new-password" name="new-password" minlength="8" required>
+                     
+                  </td>
+               </tr>
+
+               <tr>
+                  <td>Confirm Password</td>
+                  <td colspan="2"><input type="password" autocomplete="new-password" name="confirm-new-password" minlength="8" required>
+                  </td>
+               </tr>
+               
+               
+               <tr>
+                  <td colspan="2">
+                  <form>
+                    <button type ="submit" value="Save" >Save</button>
+                  </form>
+                 
+                 
+                 
+                   
+               </tr>
+            </table>
+            <hr>
+
+        <footer>
+            &copy Lazapee 2020
+ 
+            <ul>
+               <li><strong>Follow Us</strong></li>
+               <li><a href="https://www.facebook.com/" target="_blank"><img src="../images/Socials/facebook.png" alt=""></a></li>
+
+               <li><a href="https://www.instagram.com/" target="_blank"><img src="../images/Socials/instagram.png" alt=""></a></li>
+
+               <li><a href="https://twitter.com/" target="_blank"><img src="../images/Socials/twitter.png" alt=""></a></li>
+
+               <li><a href="https://www.youtube.com/" target="_blank"><img src="../images/Socials/youtube.png" alt=""></a></li>
+
+            </ul>
+
+        </footer>
+    </body>
+</html>
